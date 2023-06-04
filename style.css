@@ -1,0 +1,107 @@
+body {
+  margin-top: 60px;
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+  color: #FFFFFF;
+}
+
+input[type=number] {
+  cursor: pointer;
+  border: solid;
+}
+
+#input-celsius {
+  background-color: #52DDCF;
+  font-size: 2.5rem;
+}
+
+#input-fahrenheit {
+  background-color: #16BAC5;
+  font-size: 2.5rem;
+}
+
+#input-kelvin {
+  background-color: #42a0d9;
+  font-size: 2.5rem;
+}
+
+.form-padding {
+  padding: 2rem 1rem;
+}
+
+::-webkit-input-placeholder {
+  color: #FFFFFF !important;
+}
+
+::-moz-placeholder {
+  color: #FFFFFF !important;
+}
+
+:-ms-input-placeholder {
+  color: #FFFFFF !important;
+}
+
+:-moz-placeholder {
+  color: #FFFFFF !important;
+}
+
+footer {
+  padding-top: 1.5rem;
+  font-size: 0.7rem;
+  line-height: 0.2rem;
+  text-align: center;
+}
+
+.icons {
+  max-width: 25px;
+  height: auto;
+}
+
+label {
+  margin-right: 2rem;
+  min-width: 140px;
+  margin: auto;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.f {
+  display: flex;
+
+}
+
+#heading {
+  position: relative;
+  left: 30px;
+}
+
+svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #0e4166;
+  background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+}
